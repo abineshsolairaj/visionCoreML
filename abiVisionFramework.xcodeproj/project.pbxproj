@@ -7,20 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8B094D911F12A70100B4241D /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8B094D8F1F12A6B000B4241D /* Resnet50.mlmodel */; };
-		8B094D921F12A70800B4241D /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8B094D901F12A6B000B4241D /* Inceptionv3.mlmodel */; };
 		8B4E5BC51F0A180C00D66EC5 /* ObjectRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4E5BC41F0A180C00D66EC5 /* ObjectRecognitionViewController.swift */; };
 		8B90C7331EFF85A8007824E9 /* TextTrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B90C7321EFF85A8007824E9 /* TextTrackingViewController.swift */; };
 		8B90C7351EFF85BC007824E9 /* ObjectTrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B90C7341EFF85BC007824E9 /* ObjectTrackingViewController.swift */; };
 		8B90C7371EFF85D0007824E9 /* FaceTrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B90C7361EFF85D0007824E9 /* FaceTrackingViewController.swift */; };
 		8B9D87141F04CFCD0063E6CD /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9D87131F04CFCD0063E6CD /* ImageHelper.swift */; };
 		8BAAA07B1F12B84B000B2EDC /* RectangleTrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAAA07A1F12B84B000B2EDC /* RectangleTrackingViewController.swift */; };
-		8BAAA07D1F12BE82000B2EDC /* mnist_cnn_keras.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8BAAA07C1F12BE82000B2EDC /* mnist_cnn_keras.mlmodel */; };
-		8BAAA07F1F12C046000B2EDC /* mnistCNN.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8BAAA07E1F12C046000B2EDC /* mnistCNN.mlmodel */; };
 		8BAAA0811F12C274000B2EDC /* NumberRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAAA0801F12C274000B2EDC /* NumberRecognitionViewController.swift */; };
-		8BAAA0831F133227000B2EDC /* Face.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAAA0821F133227000B2EDC /* Face.swift */; };
 		8BB374F51F03BFD600988A66 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB374F41F03BFD600988A66 /* ListViewController.swift */; };
-		8BBE25471F0BD6B40023978C /* VGG16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8BBE25461F0BD68C0023978C /* VGG16.mlmodel */; };
 		8BCB6D2E1EFEC138007BC343 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCB6D2D1EFEC138007BC343 /* AppDelegate.swift */; };
 		8BCB6D301EFEC138007BC343 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCB6D2F1EFEC138007BC343 /* ViewController.swift */; };
 		8BCB6D331EFEC138007BC343 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BCB6D311EFEC138007BC343 /* Main.storyboard */; };
@@ -33,20 +27,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8B094D8F1F12A6B000B4241D /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
-		8B094D901F12A6B000B4241D /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		8B4E5BC41F0A180C00D66EC5 /* ObjectRecognitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectRecognitionViewController.swift; sourceTree = "<group>"; };
 		8B90C7321EFF85A8007824E9 /* TextTrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTrackingViewController.swift; sourceTree = "<group>"; };
 		8B90C7341EFF85BC007824E9 /* ObjectTrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectTrackingViewController.swift; sourceTree = "<group>"; };
 		8B90C7361EFF85D0007824E9 /* FaceTrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTrackingViewController.swift; sourceTree = "<group>"; };
 		8B9D87131F04CFCD0063E6CD /* ImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
 		8BAAA07A1F12B84B000B2EDC /* RectangleTrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleTrackingViewController.swift; sourceTree = "<group>"; };
-		8BAAA07C1F12BE82000B2EDC /* mnist_cnn_keras.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = mnist_cnn_keras.mlmodel; path = ../../mnist_cnn_keras.mlmodel; sourceTree = "<group>"; };
-		8BAAA07E1F12C046000B2EDC /* mnistCNN.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = mnistCNN.mlmodel; path = ../../mnistCNN.mlmodel; sourceTree = "<group>"; };
 		8BAAA0801F12C274000B2EDC /* NumberRecognitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberRecognitionViewController.swift; sourceTree = "<group>"; };
-		8BAAA0821F133227000B2EDC /* Face.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Face.swift; path = ../../Face.swift; sourceTree = "<group>"; };
 		8BB374F41F03BFD600988A66 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
-		8BBE25461F0BD68C0023978C /* VGG16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = VGG16.mlmodel; sourceTree = "<group>"; };
 		8BCB6D2A1EFEC137007BC343 /* abiVisionFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = abiVisionFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BCB6D2D1EFEC138007BC343 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BCB6D2F1EFEC138007BC343 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,12 +78,6 @@
 		8BCB6D2C1EFEC137007BC343 /* abiVisionFramework */ = {
 			isa = PBXGroup;
 			children = (
-				8BAAA07E1F12C046000B2EDC /* mnistCNN.mlmodel */,
-				8BAAA07C1F12BE82000B2EDC /* mnist_cnn_keras.mlmodel */,
-				8B094D901F12A6B000B4241D /* Inceptionv3.mlmodel */,
-				8B094D8F1F12A6B000B4241D /* Resnet50.mlmodel */,
-				8BBE25461F0BD68C0023978C /* VGG16.mlmodel */,
-				8BAAA0821F133227000B2EDC /* Face.swift */,
 				8BCB6D2D1EFEC138007BC343 /* AppDelegate.swift */,
 				8BCB6D2F1EFEC138007BC343 /* ViewController.swift */,
 				8BCB6D311EFEC138007BC343 /* Main.storyboard */,
@@ -196,19 +178,13 @@
 				8B90C7331EFF85A8007824E9 /* TextTrackingViewController.swift in Sources */,
 				8BCB6D361EFEC138007BC343 /* abiVisionFramework.xcdatamodeld in Sources */,
 				8B90C7351EFF85BC007824E9 /* ObjectTrackingViewController.swift in Sources */,
-				8BBE25471F0BD6B40023978C /* VGG16.mlmodel in Sources */,
 				8BCB6D301EFEC138007BC343 /* ViewController.swift in Sources */,
 				8BE17B071F038465002AF84A /* Speech Helper.swift in Sources */,
-				8B094D911F12A70100B4241D /* Resnet50.mlmodel in Sources */,
 				8BD1E4981F11650600F298A7 /* CameraDetailViewController.swift in Sources */,
-				8BAAA07D1F12BE82000B2EDC /* mnist_cnn_keras.mlmodel in Sources */,
-				8BAAA0831F133227000B2EDC /* Face.swift in Sources */,
 				8B90C7371EFF85D0007824E9 /* FaceTrackingViewController.swift in Sources */,
 				8BAAA07B1F12B84B000B2EDC /* RectangleTrackingViewController.swift in Sources */,
-				8B094D921F12A70800B4241D /* Inceptionv3.mlmodel in Sources */,
 				8BB374F51F03BFD600988A66 /* ListViewController.swift in Sources */,
 				8BAAA0811F12C274000B2EDC /* NumberRecognitionViewController.swift in Sources */,
-				8BAAA07F1F12C046000B2EDC /* mnistCNN.mlmodel in Sources */,
 				8BCB6D2E1EFEC138007BC343 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

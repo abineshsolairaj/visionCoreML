@@ -98,7 +98,7 @@ class ObjectRecognitionViewController: CameraDetailViewController {
         do {
             let model = try VNCoreMLModel(for: Resnet50().model)
             let request = VNCoreMLRequest(model: model, completionHandler: self.handleClassification)
-            request.imageCropAndScaleOption = VNImageCropAndScaleOptionCenterCrop
+            request.imageCropAndScaleOption = VNImageCropAndScaleOption.centerCrop
             return request
         } catch {
             fatalError("can't load Vision ML model: \(error)")
