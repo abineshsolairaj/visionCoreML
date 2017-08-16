@@ -3,7 +3,7 @@
 
    Hi, all. Welcome to Vision and CoreML Exploration. It's been a month since Apple released its Vision, CoreML and AR frameworks which were considered as the most eye catching updates of WWDC17. I got some time to play around with these frameworks and created an app. Please check out the project below.
    
-          This app shows a demo of all the Vision Framework features along with the CoreML introduced in WWDC17. The Following are the features you will go through in the app.
+   This app shows a demo of all the Vision Framework features along with the CoreML introduced in WWDC17. The Following are the features you will go through in the app.
 1) Rectangles Detection
 2) Face Detection
 3) Object Tracking
