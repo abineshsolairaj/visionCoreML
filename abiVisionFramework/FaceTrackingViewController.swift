@@ -72,11 +72,11 @@ override func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: C
     
     var requestOptions:[VNImageOption : Any] = [:]
     
-    if let camData = CMGetAttachment(sampleBuffer, kCMSampleBufferAttachmentKey_CameraIntrinsicMatrix, nil) {
+    if let camData = CMGetAttachment(sampleBuffer, key: kCMSampleBufferAttachmentKey_CameraIntrinsicMatrix, attachmentModeOut: nil) {
         requestOptions = [.cameraIntrinsics:camData]
     }
     
-    let imageRequestHandler = VNImageRequestHandler(cvPixelBuffer: pixelBuffer, orientation: 6, options: requestOptions)
+    let imageRequestHandler = VNImageRequestHandler(cvPixelBuffer: pixelBuffer, orientation: .right, options: requestOptions)
     
     do {
         try imageRequestHandler.perform(self.requests)

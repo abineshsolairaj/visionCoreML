@@ -79,7 +79,7 @@ class ObjectRecognitionViewController: CameraDetailViewController {
             return
         }
         var requestOptions: [VNImageOption: Any] = [:]
-        if let cameraIntrinsicData = CMGetAttachment(sampleBuffer, kCMSampleBufferAttachmentKey_CameraIntrinsicMatrix, nil) {
+        if let cameraIntrinsicData = CMGetAttachment(sampleBuffer, key: kCMSampleBufferAttachmentKey_CameraIntrinsicMatrix, attachmentModeOut: nil) {
             requestOptions = [.cameraIntrinsics: cameraIntrinsicData]
         }
         // Run the Core ML classifier - results in handleClassification method
