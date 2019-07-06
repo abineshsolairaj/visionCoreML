@@ -11,11 +11,15 @@ import AVFoundation
 
 class CameraView: UIView {
     
+    // Property
+    private weak var previewLayer: AVCaptureVideoPreviewLayer?
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }
     
-    /// Insert layer at index 0
+    // Insert layer at index 0
     func addCaptureVideoPreviewLayer(_ previewLayer: AVCaptureVideoPreviewLayer) {
         self.previewLayer?.removeFromSuperlayer()
         self.layer.insertSublayer(previewLayer, at: 0)
@@ -28,5 +32,4 @@ class CameraView: UIView {
         previewLayer?.frame = bounds
     }
     
-    private weak var previewLayer: AVCaptureVideoPreviewLayer?
 }

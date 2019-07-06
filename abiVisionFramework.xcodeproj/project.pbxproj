@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8B4E5BC51F0A180C00D66EC5 /* ObjectRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4E5BC41F0A180C00D66EC5 /* ObjectRecognitionViewController.swift */; };
+		8B597E2022CF6FBE00174E25 /* mnistCNN.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8B597E1F22CF6FBE00174E25 /* mnistCNN.mlmodel */; };
+		8B597E2222CF6FCB00174E25 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8B597E2122CF6FCB00174E25 /* Resnet50.mlmodel */; };
 		8B90C7331EFF85A8007824E9 /* TextTrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B90C7321EFF85A8007824E9 /* TextTrackingViewController.swift */; };
 		8B90C7351EFF85BC007824E9 /* ObjectTrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B90C7341EFF85BC007824E9 /* ObjectTrackingViewController.swift */; };
 		8B90C7371EFF85D0007824E9 /* FaceTrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B90C7361EFF85D0007824E9 /* FaceTrackingViewController.swift */; };
@@ -28,6 +30,8 @@
 
 /* Begin PBXFileReference section */
 		8B4E5BC41F0A180C00D66EC5 /* ObjectRecognitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectRecognitionViewController.swift; sourceTree = "<group>"; };
+		8B597E1F22CF6FBE00174E25 /* mnistCNN.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = mnistCNN.mlmodel; sourceTree = "<group>"; };
+		8B597E2122CF6FCB00174E25 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 		8B90C7321EFF85A8007824E9 /* TextTrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTrackingViewController.swift; sourceTree = "<group>"; };
 		8B90C7341EFF85BC007824E9 /* ObjectTrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectTrackingViewController.swift; sourceTree = "<group>"; };
 		8B90C7361EFF85D0007824E9 /* FaceTrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTrackingViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 		8BCB6D2C1EFEC137007BC343 /* abiVisionFramework */ = {
 			isa = PBXGroup;
 			children = (
+				8B597E2122CF6FCB00174E25 /* Resnet50.mlmodel */,
+				8B597E1F22CF6FBE00174E25 /* mnistCNN.mlmodel */,
 				8BCB6D2D1EFEC138007BC343 /* AppDelegate.swift */,
 				8BCB6D2F1EFEC138007BC343 /* ViewController.swift */,
 				8BCB6D311EFEC138007BC343 /* Main.storyboard */,
@@ -182,9 +188,11 @@
 				8BE17B071F038465002AF84A /* Speech Helper.swift in Sources */,
 				8BD1E4981F11650600F298A7 /* CameraDetailViewController.swift in Sources */,
 				8B90C7371EFF85D0007824E9 /* FaceTrackingViewController.swift in Sources */,
+				8B597E2022CF6FBE00174E25 /* mnistCNN.mlmodel in Sources */,
 				8BAAA07B1F12B84B000B2EDC /* RectangleTrackingViewController.swift in Sources */,
 				8BB374F51F03BFD600988A66 /* ListViewController.swift in Sources */,
 				8BAAA0811F12C274000B2EDC /* NumberRecognitionViewController.swift in Sources */,
+				8B597E2222CF6FCB00174E25 /* Resnet50.mlmodel in Sources */,
 				8BCB6D2E1EFEC138007BC343 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,7 +334,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.mobilefirst.abiVisionFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -343,7 +351,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.mobilefirst.abiVisionFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

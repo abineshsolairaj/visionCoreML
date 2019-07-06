@@ -102,26 +102,12 @@ class CameraDetailViewController: UIViewController, AVCaptureVideoDataOutputSamp
         
     }
     
-//    func didTap(sender:UITapGestureRecognizer){
-//    }
-    
-    
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destinationViewController.
-     // Pass the selected object to the new view controller.
-     }
-     */
-    
 }
 
 extension UIViewController{
     
     func showAlert(title: String, message: String){
-        let alertView = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
+        let alertView = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
         alertView.addAction(UIAlertAction(title: "OK", style: .default, handler: { (action: UIAlertAction!) in
             self.dismiss(animated: true, completion: nil)
         }))

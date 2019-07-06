@@ -103,7 +103,7 @@ class TextTrackingViewController: CameraDetailViewController {
         
         var requestOptions:[VNImageOption : Any] = [:]
         
-        if let camData = CMGetAttachment(sampleBuffer, kCMSampleBufferAttachmentKey_CameraIntrinsicMatrix, nil) {
+        if let camData = CMGetAttachment(sampleBuffer, key: kCMSampleBufferAttachmentKey_CameraIntrinsicMatrix, attachmentModeOut: nil) {
             requestOptions = [.cameraIntrinsics:camData]
         }
         

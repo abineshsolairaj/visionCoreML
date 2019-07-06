@@ -79,7 +79,7 @@ class ObjectRecognitionViewController: CameraDetailViewController {
             return
         }
         var requestOptions: [VNImageOption: Any] = [:]
-        if let cameraIntrinsicData = CMGetAttachment(sampleBuffer, kCMSampleBufferAttachmentKey_CameraIntrinsicMatrix, nil) {
+        if let cameraIntrinsicData = CMGetAttachment(sampleBuffer, key: kCMSampleBufferAttachmentKey_CameraIntrinsicMatrix, attachmentModeOut: nil) {
             requestOptions = [.cameraIntrinsics: cameraIntrinsicData]
         }
         // Run the Core ML classifier - results in handleClassification method
@@ -116,16 +116,5 @@ class ObjectRecognitionViewController: CameraDetailViewController {
             self?.detailText?.text = filteredOservations.first?.identifier
         }
     }
-    
-    
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destinationViewController.
-     // Pass the selected object to the new view controller.
-     }
-     */
     
 }
