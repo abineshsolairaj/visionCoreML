@@ -12,6 +12,7 @@
 6) Number Recognition
 7) Text Recognition
 8) Face Recognition
+
 The first four features use vision framework and the rest use vision along with CoreML. This blog will give you the overview of how the whole vision and coreml works.
 
 Vision and Core Machine Learning Framework:
