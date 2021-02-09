@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:abiVisionFramework.xcodeproj">
+      location = "self:/Users/abiness4@in.ibm.com/Documents/GitHub/visionCoreML/Vision+CoreML.xcodeproj">
    </FileRef>
 </Workspace>
