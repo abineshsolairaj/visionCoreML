@@ -39,7 +39,7 @@
 		8BAAA07A1F12B84B000B2EDC /* RectangleTrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleTrackingViewController.swift; sourceTree = "<group>"; };
 		8BAAA0801F12C274000B2EDC /* NumberRecognitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberRecognitionViewController.swift; sourceTree = "<group>"; };
 		8BB374F41F03BFD600988A66 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
-		8BCB6D2A1EFEC137007BC343 /* abiVisionFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = abiVisionFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BCB6D2A1EFEC137007BC343 /* Vision+CoreML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vision+CoreML.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BCB6D2D1EFEC138007BC343 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BCB6D2F1EFEC138007BC343 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8BCB6D321EFEC138007BC343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		8BCB6D2B1EFEC137007BC343 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8BCB6D2A1EFEC137007BC343 /* abiVisionFramework.app */,
+				8BCB6D2A1EFEC137007BC343 /* Vision+CoreML.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,9 +109,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8BCB6D291EFEC137007BC343 /* abiVisionFramework */ = {
+		8BCB6D291EFEC137007BC343 /* Vision+CoreML */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8BCB6D3F1EFEC138007BC343 /* Build configuration list for PBXNativeTarget "abiVisionFramework" */;
+			buildConfigurationList = 8BCB6D3F1EFEC138007BC343 /* Build configuration list for PBXNativeTarget "Vision+CoreML" */;
 			buildPhases = (
 				8BCB6D261EFEC137007BC343 /* Sources */,
 				8BCB6D271EFEC137007BC343 /* Frameworks */,
@@ -121,9 +121,9 @@
 			);
 			dependencies = (
 			);
-			name = abiVisionFramework;
+			name = "Vision+CoreML";
 			productName = abiVisionFramework;
-			productReference = 8BCB6D2A1EFEC137007BC343 /* abiVisionFramework.app */;
+			productReference = 8BCB6D2A1EFEC137007BC343 /* Vision+CoreML.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,16 +133,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = "Abinesh Solairaj";
 				TargetAttributes = {
 					8BCB6D291EFEC137007BC343 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 1220;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 8BCB6D251EFEC137007BC343 /* Build configuration list for PBXProject "abiVisionFramework" */;
+			buildConfigurationList = 8BCB6D251EFEC137007BC343 /* Build configuration list for PBXProject "Vision+CoreML" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -155,7 +156,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8BCB6D291EFEC137007BC343 /* abiVisionFramework */,
+				8BCB6D291EFEC137007BC343 /* Vision+CoreML */,
 			);
 		};
 /* End PBXProject section */
@@ -233,13 +234,18 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -265,7 +271,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -288,13 +294,18 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -314,7 +325,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -334,8 +345,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.mobilefirst.abiVisionFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -351,15 +362,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.mobilefirst.abiVisionFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8BCB6D251EFEC137007BC343 /* Build configuration list for PBXProject "abiVisionFramework" */ = {
+		8BCB6D251EFEC137007BC343 /* Build configuration list for PBXProject "Vision+CoreML" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8BCB6D3D1EFEC138007BC343 /* Debug */,
@@ -368,7 +379,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8BCB6D3F1EFEC138007BC343 /* Build configuration list for PBXNativeTarget "abiVisionFramework" */ = {
+		8BCB6D3F1EFEC138007BC343 /* Build configuration list for PBXNativeTarget "Vision+CoreML" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8BCB6D401EFEC138007BC343 /* Debug */,
